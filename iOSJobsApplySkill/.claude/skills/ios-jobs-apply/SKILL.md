@@ -77,6 +77,17 @@ Ask which to apply to (all / numbers / none). **Don't apply to anything until th
 4. **Questions not covered by `profile.json`:** don't guess. Collect them all and ask the user in one message. Save each answer to `profile.json` (`preferences`, `companyHistory` or `customAnswers`) so it's reused next time.
 5. **Optional fields:** leave cover letter and "additional information" blank unless required. If a cover letter is required, ask the user before writing one.
 
+### Form-filling lessons (from real runs)
+- **Work in one tab at a time.** Typed text only reaches the focused tab, so keystrokes sent to a background tab are lost. Open each form in the same tab after the previous one is submitted.
+- **Click fields by coordinate** (from a fresh screenshot) before typing. Clicking a `ref` sometimes doesn't focus the input on Greenhouse. Then zoom in to verify the values.
+- **Greenhouse dropdowns** (react-select): click the box, screenshot, then click the option. Typing and pressing Enter is unreliable.
+- **Company career pages that embed Greenhouse in a frame** (e.g. careers.airbnb.com): open `https://boards.greenhouse.io/embed/job_app?for=<slug>&token=<job id>` directly instead.
+- **Ashby:** a field can look filled but not register ("Missing entry for required field"). Re-set it with `form_input` and submit again.
+- **Ashby resume:** upload to the **Resume** field, not "Autofill from resume", so it doesn't overwrite typed fields.
+- **Questions that split a profile answer** (e.g. Asian into East/South Asian, sponsorship "now" vs "in the future"): use the detailed fields in `profile.json` (`ethnicityDetailed`, `sponsorshipTiming`), and ask if they're missing.
+- **Experience by degree** ("Bachelor's + 3 yrs OR Master's + 1 yr"): judge by the **Master's** line, since the user has an MS. `find_jobs.py`'s `minYoe` takes the smallest number anywhere (e.g. a PhD line), so always read the posting.
+- **After Submit,** the Simplify extension may open an "Add Custom Application" pop-up. Click **Cancel**, then read the page's own confirmation.
+
 ### Login needed (Snap/Workday, Amazon, Netflix, Google, Meta, Microsoft, Uber)
 1. Open the role and click Apply. When it reaches a sign-in or create-account page, **stop and ask the user to sign in or create the account themselves** in that tab. Never type passwords, verification codes or security answers. Wait for them to say they're done.
 2. **Prefer existing profile details always:** if the portal offers to use a saved profile or resume, use it. Don't let it overwrite the profile by re-parsing the resume.
