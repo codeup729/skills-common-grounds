@@ -1,0 +1,135 @@
+{
+  "api": [
+    {
+      "name": "Airbnb",
+      "ats": "greenhouse",
+      "slug": "airbnb"
+    },
+    {
+      "name": "Lyft",
+      "ats": "greenhouse",
+      "slug": "lyft"
+    },
+    {
+      "name": "Pinterest",
+      "ats": "greenhouse",
+      "slug": "pinterest"
+    },
+    {
+      "name": "Robinhood",
+      "ats": "greenhouse",
+      "slug": "robinhood"
+    },
+    {
+      "name": "Discord",
+      "ats": "greenhouse",
+      "slug": "discord"
+    },
+    {
+      "name": "Figma",
+      "ats": "greenhouse",
+      "slug": "figma"
+    },
+    {
+      "name": "Instacart",
+      "ats": "greenhouse",
+      "slug": "instacart"
+    },
+    {
+      "name": "Reddit",
+      "ats": "greenhouse",
+      "slug": "reddit"
+    },
+    {
+      "name": "Dropbox",
+      "ats": "greenhouse",
+      "slug": "dropbox"
+    },
+    {
+      "name": "Coinbase",
+      "ats": "greenhouse",
+      "slug": "coinbase"
+    },
+    {
+      "name": "Stripe",
+      "ats": "greenhouse",
+      "slug": "stripe"
+    },
+    {
+      "name": "Duolingo",
+      "ats": "greenhouse",
+      "slug": "duolingo"
+    },
+    {
+      "name": "DoorDash",
+      "ats": "greenhouse",
+      "slug": "doordashusa"
+    },
+    {
+      "name": "Notion",
+      "ats": "ashby",
+      "slug": "notion"
+    },
+    {
+      "name": "Ramp",
+      "ats": "ashby",
+      "slug": "ramp"
+    },
+    {
+      "name": "Plaid",
+      "ats": "ashby",
+      "slug": "plaid"
+    },
+    {
+      "name": "Spotify",
+      "ats": "lever",
+      "slug": "spotify"
+    },
+    {
+      "name": "Snap",
+      "ats": "workday",
+      "host": "snapchat.wd1.myworkdayjobs.com",
+      "tenant": "snapchat",
+      "site": "snap"
+    },
+    {
+      "name": "Amazon",
+      "ats": "amazon"
+    },
+    {
+      "name": "Netflix",
+      "ats": "eightfold",
+      "host": "explore.jobs.netflix.net",
+      "domain": "netflix.com"
+    }
+  ],
+  "portals": [
+    {
+      "name": "Google",
+      "searchUrl": "https://www.google.com/about/careers/applications/jobs/results?q=iOS&location=United%20States&sort_by=date",
+      "notes": "Sorted newest first but NO posting dates anywhere. Read the first 1-2 pages only; mark date '?'. Each card shows level (Early/Mid/Advanced) and minimum qualifications incl. years."
+    },
+    {
+      "name": "Meta",
+      "searchUrl": "https://www.metacareers.com/jobs?q=iOS",
+      "notes": "Select Sort by: Newest. Listing has no dates; open each likely role to find one, else mark '?'."
+    },
+    {
+      "name": "Microsoft",
+      "searchUrl": "https://apply.careers.microsoft.com/careers?query=iOS&location=United%20States&sort_by=timestamp",
+      "notes": "Eightfold site; listing shows 'Posted N days ago'. Feed API is not public (403)."
+    },
+    {
+      "name": "Uber",
+      "searchUrl": "https://jobs.uber.com/en/jobs/?search=iOS",
+      "notes": "Also try ?search=mobile. No posting dates on listings; ignore 'Job removed' entries."
+    }
+  ],
+  "delegated": [
+    {
+      "name": "Apple",
+      "skill": "apple-ios-apply",
+      "path": "../AppleApplySkill/.claude/skills/apple-ios-apply/SKILL.md"
+    }
+  ]
+}

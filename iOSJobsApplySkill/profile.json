@@ -1,0 +1,62 @@
+{
+  "_note": "Standing answers for application forms. null = not answered yet: ask the user once, then fill it in here.",
+  "resumeFile": "resume/Anitej_Srivastava_Resume.pdf",
+  "contact": {
+    "firstName": "Anitej",
+    "lastName": "Srivastava",
+    "preferredName": "Anitej",
+    "email": "as19440@nyu.edu",
+    "phone": "+1 (929) 294-4007",
+    "address": {
+      "street": "Apt 3E 432 W 38th Street",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10018",
+      "country": "United States"
+    },
+    "currentLocation": "New York, NY"
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/anitej-srivastava-4799351a8/",
+    "github": "https://github.com/codeup729",
+    "portfolio": null
+  },
+  "education": [
+    {"school": "New York University", "degree": "Master of Science", "field": "Computer Science", "start": "2024-09", "end": "2025-12", "gpa": "3.74/4.0", "graduated": true},
+    {"school": "Vellore Institute of Technology", "degree": "Bachelor of Technology", "field": "Computer Science and Engineering", "start": "2019-07", "end": "2023-06", "gpa": "3.96/4.0", "graduated": true}
+  ],
+  "employment": [
+    {"employer": "Yahoo", "title": "Software Apps Engineer II - iOS", "location": "New York, NY", "start": "2026-01", "end": null, "current": true},
+    {"employer": "Yahoo", "title": "iOS Engineer Intern", "location": "New York, NY", "start": "2025-06", "end": "2025-12", "current": false},
+    {"employer": "Hoomanely Inc", "title": "iOS & Backend Engineer", "location": "Bengaluru, India", "start": "2024-01", "end": "2024-06", "current": false},
+    {"employer": "BYJU'S Learning App", "title": "iOS Engineer - Member of Technical Staff 1", "location": "Bengaluru, India", "start": "2022-09", "end": "2024-01", "current": false}
+  ],
+  "workAuthorization": {
+    "atLeast18": true,
+    "authorizedToWorkInUS": true,
+    "requiresSponsorshipNowOrFuture": true
+  },
+  "selfDisclosure": {
+    "gender": "Male",
+    "raceEthnicity": "Asian (not Hispanic or Latino)",
+    "hispanicOrLatino": false,
+    "veteranStatus": "I am not a protected veteran",
+    "disabilityStatus": "No, I do not have a disability and have not had one in the past"
+  },
+  "preferences": {
+    "willingToRelocate": true,
+    "willingToTravel": true,
+    "preferredLocations": ["New York, NY", "California", "Cupertino, CA", "Palo Alto, CA", "Seattle, WA"],
+    "earliestStartDate": null,
+    "noticePeriod": null,
+    "salaryExpectation": null,
+    "howDidYouHear": null
+  },
+  "companyHistory": {
+    "_note": "Per-company questions like 'Have you worked at X before?'. Employers per resume: Yahoo, Hoomanely, BYJU'S; Apple confirmed No. Any other company: No.",
+    "Yahoo": "current employee"
+  },
+  "customAnswers": {
+    "_note": "Answers the user gave to other recurring questions. Key = question text (short), value = answer."
+  }
+}
