@@ -9,5 +9,7 @@ A collection of Claude Code skills.
   - `find_jobs.py` searches the public job feeds (Greenhouse, Ashby, Lever, Workday, Amazon, Netflix). The browser covers the rest.
   - Forms are filled from `profile.json`, and the resume comes from `resume/`.
   - You sign in to portals yourself and approve every submit.
+- **FinanceJobsApplySkill/**: `finance-jobs-apply` finds US **Financial Advisor** and **Private Bank / Private Wealth Analyst-Associate** roles posted in the last 7 days at major banks and wealth firms, and drops any posting that says it won't sponsor a visa. It applies on behalf of the candidate in `profile.json`.
+  - `find_jobs.py` searches the Workday and JPMorgan feeds. The browser covers Goldman Sachs, Merrill/BofA, UBS, Schwab, Edward Jones, BNY and HSBC.
 
 Open Claude Code inside a skill's folder and run `/apple-ios-apply` or `/ios-jobs-apply`.

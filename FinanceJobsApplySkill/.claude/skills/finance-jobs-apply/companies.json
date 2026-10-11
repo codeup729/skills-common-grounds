@@ -1,0 +1,28 @@
+{
+  "searchTerms": ["financial advisor", "financial consultant", "wealth advisor", "private bank", "private wealth", "private client", "wealth management associate", "wealth management analyst"],
+  "api": [
+    {"name": "JPMorgan Chase", "ats": "oracle", "host": "jpmc.fa.oraclecloud.com", "site": "CX_1001", "note": "Candidate's CURRENT employer: flag roles as internal-apply; don't apply externally."},
+    {"name": "Morgan Stanley", "ats": "workday", "host": "ms.wd5.myworkdayjobs.com", "tenant": "ms", "site": "External"},
+    {"name": "Citi", "ats": "workday", "host": "citi.wd5.myworkdayjobs.com", "tenant": "citi", "site": "2"},
+    {"name": "Wells Fargo", "ats": "workday", "host": "wd1.myworkdaysite.com", "tenant": "wf", "site": "WellsFargoJobs", "jobBase": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs"},
+    {"name": "Fidelity", "ats": "workday", "host": "fmr.wd1.myworkdayjobs.com", "tenant": "fmr", "site": "FidelityCareers"},
+    {"name": "Vanguard", "ats": "workday", "host": "vanguard.wd5.myworkdayjobs.com", "tenant": "vanguard", "site": "vanguard_external"},
+    {"name": "Northern Trust", "ats": "workday", "host": "ntrs.wd1.myworkdayjobs.com", "tenant": "ntrs", "site": "northerntrust"},
+    {"name": "Ameriprise", "ats": "workday", "host": "ameriprise.wd5.myworkdayjobs.com", "tenant": "ameriprise", "site": "Ameriprise"},
+    {"name": "Deutsche Bank", "ats": "workday", "host": "db.wd3.myworkdayjobs.com", "tenant": "db", "site": "DBWebsite"},
+    {"name": "Barclays", "ats": "workday", "host": "barclays.wd3.myworkdayjobs.com", "tenant": "barclays", "site": "External_Career_Site_Barclays"},
+    {"name": "RBC", "ats": "workday", "host": "rbc.wd3.myworkdayjobs.com", "tenant": "rbc", "site": "RBCGLOBAL1"},
+    {"name": "PNC", "ats": "workday", "host": "pnc.wd5.myworkdayjobs.com", "tenant": "pnc", "site": "External"},
+    {"name": "Truist", "ats": "workday", "host": "truist.wd1.myworkdayjobs.com", "tenant": "truist", "site": "Careers"},
+    {"name": "U.S. Bank", "ats": "workday", "host": "usbank.wd1.myworkdayjobs.com", "tenant": "usbank", "site": "US_Bank_Careers"}
+  ],
+  "portals": [
+    {"name": "Goldman Sachs", "searchUrl": "https://higher.gs.com/results?search=private%20wealth&location=United%20States", "notes": "Also search 'wealth'. Private Wealth Management analyst/associate roles."},
+    {"name": "Bank of America / Merrill", "searchUrl": "https://careers.bankofamerica.com/en-us/job-search?ref=search&search=jobsByKeyword&searchString=private%20bank", "notes": "Also search 'financial advisor' (Merrill Financial Advisor / Advisor Development Program) and 'private bank'."},
+    {"name": "UBS", "searchUrl": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=searchResults&SearchType=linkquery&LinkID=15232", "notes": "If that link fails, start at https://www.ubs.com/global/en/careers/search-jobs.html and search 'Wealth Management' in United States."},
+    {"name": "Charles Schwab", "searchUrl": "https://www.schwabjobs.com/search-jobs/financial%20consultant/United%20States", "notes": "Schwab's advisor title is 'Financial Consultant'."},
+    {"name": "Edward Jones", "searchUrl": "https://careers.edwardjones.com/explore-opportunities/search-jobs?keyword=financial%20advisor", "notes": "Financial Advisor roles; check posting for sponsorship language (historically restrictive)."},
+    {"name": "BNY", "searchUrl": "https://bny.wd1.myworkdayjobs.com/BNY_Careers?q=wealth", "notes": "If it 404s, use https://www.bny.com/corporate/global/en/careers.html → search 'Wealth'."},
+    {"name": "HSBC", "searchUrl": "https://mycareer.hsbc.com/en_GB/external/SearchJobs/?keyword=private%20bank", "notes": "Filter to United States."}
+  ]
+}

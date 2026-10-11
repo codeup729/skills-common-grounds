@@ -1,0 +1,56 @@
+{
+  "_note": "Candidate: Vanshika Mahajan (applying via a friend, Anitej, who confirms each submission on her behalf with her pre-approval). Seeded from her June 2026 resume. null = unknown: ask once, then fill in here.",
+  "resumeFile": "resume/Vanshika_Mahajan_Resume.pdf",
+  "contact": {
+    "firstName": "Vanshika",
+    "lastName": "Mahajan",
+    "preferredName": null,
+    "email": "Vm2@fordham.edu",
+    "phone": "+1 (917) 728-9040",
+    "address": {"street": null, "city": "New York", "state": "NY", "zip": null, "country": "United States"},
+    "currentLocation": "New York, NY"
+  },
+  "links": {"linkedin": null},
+  "education": [
+    {"school": "Fordham University, Gabelli School of Business", "degree": "Master's", "field": "Finance", "start": "2023", "end": "2024", "graduated": true, "honors": "Dean's scholarship"},
+    {"school": "University of Mumbai (Mithibai College)", "degree": "Bachelor of Commerce", "field": "Financial Accounting and Auditing", "start": "2017", "end": "2020", "graduated": true}
+  ],
+  "employment": [
+    {"employer": "JPMorgan Chase", "title": "Relationship Banker", "location": "New York, NY", "start": "2025-07", "end": null, "current": true},
+    {"employer": "Equitable Advisors", "title": "Financial Advisor", "location": "New York, NY", "start": "2024-07", "end": "2025-06", "current": false},
+    {"employer": "Saritoria", "title": "Finance and Sales Associate", "location": "Mumbai, India", "start": "2022", "end": "2023", "current": false},
+    {"employer": "International Trading Corp. (ITC)", "title": "Finance and Operations Manager", "location": "Jammu, India", "start": "2021-01", "end": "2022-04", "current": false},
+    {"employer": "A.M Associates, P&G Partners", "title": "Intern", "location": "Jammu, India", "start": "2021-05", "end": "2021-08", "current": false}
+  ],
+  "licenses": ["SIE", "Series 7", "Series 66", "Life, Accident & Health"],
+  "certifications": ["Columbia Holistic Financial Coach"],
+  "workAuthorization": {
+    "atLeast18": true,
+    "authorizedToWorkInUS": null,
+    "requiresSponsorshipNowOrFuture": true,
+    "sponsorshipTiming": null,
+    "subjectToNonCompete": null
+  },
+  "selfDisclosure": {
+    "gender": null,
+    "raceEthnicity": null,
+    "ethnicityDetailed": null,
+    "hispanicOrLatino": null,
+    "veteranStatus": null,
+    "disabilityStatus": null,
+    "pronouns": null
+  },
+  "preferences": {
+    "locations": "Anywhere in the US",
+    "willingToRelocate": null,
+    "earliestStartDate": null,
+    "salaryExpectation": null,
+    "howDidYouHear": null
+  },
+  "companyHistory": {
+    "_note": "Employers per resume: JPMorgan Chase (current), Equitable Advisors. Any other company: No.",
+    "JPMorgan Chase": "current employee: JPM roles must go through the internal job board",
+    "Equitable Advisors": "former employee"
+  },
+  "customAnswers": {}
+}
